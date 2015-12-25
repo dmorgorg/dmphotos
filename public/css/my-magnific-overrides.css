@@ -1,0 +1,22 @@
+.mfp-bg {
+    background:white;
+    opacity: 1;
+}
+
+
+.mfp-counter, .mfp-image-holder .mfp-close{
+    color: #888;
+}
+
+
+.mfp-title {
+    text-align: left;
+    line-height: 18px;
+    color: #888;
+    word-wrap: break-word;
+    padding-right: 36px;
+}
+
+.img.mfp-img{
+    max-height: 200px;
+}
