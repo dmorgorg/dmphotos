@@ -1,5 +1,6 @@
 body {
 	font-size: 1.5em;
+
 }
 
 /* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
@@ -51,6 +52,17 @@ footer {
 	background-color:#eee;
 	font-weight:bold;
 	border: 1px solid #bbb;
+}
+
+.thumb{
+	display: inline-block;
+	height: 100%;
+	margin: 0 -0.075em 0 -0.12em;
+	border: 3px solid #888;
+}
+
+.thumb:hover{
+	border: 3px solid black;
 }
 
 section {
@@ -148,6 +160,24 @@ input#inputDate{
 	text-align: right;
 	margin: 0;
 	float: right;
+}
+
+
+.iframe-container {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+
+  /* element ratio is 4:3 (3/4 * 100) */
+  padding-top: 75%;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 .vspace1em{

@@ -20,3 +20,7 @@
 .img.mfp-img{
     max-height: 200px;
 }
+
+.mfp-figure{
+  height: 50%;
+}

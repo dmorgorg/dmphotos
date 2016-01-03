@@ -2,14 +2,14 @@ $(document).ready(function() {
 
     $('.popup').magnificPopup({
         //delegate: 'a',
-        type: 'image',
+        type: 'iframe',
         gallery: {
             enabled: true,
             preload: [1, 4]// preload previous and next four images
         },
-        image: {
-            titleSrc: 'title'
-        }
+        // image: {
+        //     titleSrc: 'title'
+        // }
     });
 
     $('#tag_input').change(function(){
